@@ -1,0 +1,147 @@
+{
+  "prettier.configPath": ".prettierrc",
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "window.zoomLevel": 2,
+  "commit-message-editor.view.tabSize": 2,
+  "editor.tabSize": 2,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  // Enable the ESlint flat config support
+  "eslint.experimental.useFlatConfig": true,
+
+  // Disable the default formatter, use eslint instead
+  "prettier.enable": true,
+  // "editor.formatOnSave": false,
+
+  // Auto fix
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": "explicit",
+  //   "source.organizeImports": "never"
+  // },
+
+  // Silent the stylistic rules in you IDE, but still auto fix them
+  "eslint.rules.customizations": [
+    {
+      "rule": "style/*",
+      "severity": "off"
+    },
+    {
+      "rule": "format/*",
+      "severity": "off"
+    },
+    {
+      "rule": "*-indent",
+      "severity": "off"
+    },
+    {
+      "rule": "*-spacing",
+      "severity": "off"
+    },
+    {
+      "rule": "*-spaces",
+      "severity": "off"
+    },
+    {
+      "rule": "*-order",
+      "severity": "off"
+    },
+    {
+      "rule": "*-dangle",
+      "severity": "off"
+    },
+    {
+      "rule": "*-newline",
+      "severity": "off"
+    },
+    {
+      "rule": "*quotes",
+      "severity": "off"
+    },
+    {
+      "rule": "*semi",
+      "severity": "off"
+    }
+  ],
+
+  // Enable eslint for all supported languages
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "html", "markdown", "json", "jsonc", "yaml", "toml"],
+  "cSpell.words": [
+    "antfu",
+    "attname",
+    "Attributify",
+    "breakline",
+    "bumpp",
+    "cascader",
+    "commitlint",
+    "coolgray",
+    "Creater",
+    "ctitle",
+    "cust",
+    "debugcjs",
+    "docsify",
+    "esno",
+    "Fira",
+    "gitee",
+    "icones",
+    "iconify",
+    "iconoir",
+    "idcard",
+    "intlify",
+    "keypoint",
+    "KSSH",
+    "Ldgnjs",
+    "micromessenger",
+    "mingcute",
+    "nprogress",
+    "Nums",
+    "oprate",
+    "picocolors",
+    "pinia",
+    "Prefixs",
+    "preinstall",
+    "rmvb",
+    "soundcharts",
+    "swipeable",
+    "tabbar",
+    "telphone",
+    "tseslint",
+    "twotone",
+    "unocss",
+    "unplugin",
+    "unref",
+    "vant",
+    "vueuse",
+    "WECHAT",
+    "weixin",
+    "Windi",
+    "wxsdk",
+    "xxhjs",
+    "XXKSH",
+    "YZSH"
+  ],
+  "to-unocss": {
+    "dark": {
+      "textDecoration": "underline",
+      "backgroundColor": "rgba(144, 238, 144, 0.5)",
+      "color": "black"
+    },
+    "light": {
+      "textDecoration": "underline",
+      "backgroundColor": "rgba(255, 165, 0, 0.5)",
+      "color": "#ffffff"
+    }
+  }
+}
