@@ -11,6 +11,7 @@
     "commitlint": "commitlint --edit"
   },
   "dependencies": {
+    "ts-node": "^10.9.2",
     "vue": "^3.5.12"
   },
   "devDependencies": {
@@ -18,9 +19,11 @@
     "@commitlint/config-conventional": "^18.4.3",
     "@eslint/js": "^9.13.0",
     "@types/eslint__js": "^8.42.3",
+    "@types/node": "^22.8.7",
     "@typescript-eslint/eslint-plugin": "^8.12.2",
     "@typescript-eslint/parser": "^8.12.2",
     "@vitejs/plugin-vue": "^5.1.4",
+    "bumpp": "^9.8.1",
     "eslint": "^9.13.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
